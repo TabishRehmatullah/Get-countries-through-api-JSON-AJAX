@@ -18,7 +18,7 @@ function get_countries(){
 }
 function populate_countries(countries){
     for(var a= 0; a< countries.length; a++){
-        console.log(countries[0].name)
+        console.log(countries[a].name)
     }
 }
 get_countries();
